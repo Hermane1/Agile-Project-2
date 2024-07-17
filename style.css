@@ -1,0 +1,58 @@
+/* Basic styles and layout */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+  }
+  
+  main {
+    padding: 1em;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+  }
+  
+  textarea, input {
+    margin-bottom: 0.5em;
+    padding: 0.5em;
+    font-size: 1em;
+  }
+  
+  button {
+    padding: 0.5em;
+    background: #007bff;
+    color: #08c751;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #0056b3;
+  }
+  
+  #posts-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .post-item {
+    background: #1974ca;
+    padding: 1em;
+    margin-bottom: 0.5em;
+    border: 1px solid #a3a8d6;
+  }
+  
+  .post-item button {
+    margin-left: 0.5em;
+  }
+  

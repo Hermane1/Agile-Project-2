@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Blog/Twitter App</title>
+</head>
+<body>
+  <header>
+    <h1>Blog/HappyPost App</h1>
+  </header>
+  <main>
+    <section id="create-post">
+      <h2>Create a Post</h2>
+      <form id="post-form">
+        <textarea id="content" placeholder="What's on your mind?" required maxlength="280"></textarea>
+        <input type="text" id="author" placeholder="Author" required>
+        <input type="text" id="tags" placeholder="Tags (comma-separated)">
+        <button type="submit">Post</button>
+      </form>
+      <div id="error-message"></div>
+    </section>
+    <section id="search-posts">
+      <input type="text" id="search" placeholder="Search posts by keyword">
+    </section>
+    <section id="posts-feed">
+      <h2>Posts</h2>
+      <ul id="posts-list"></ul>
+    </section>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
